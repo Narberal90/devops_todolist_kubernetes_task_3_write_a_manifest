@@ -24,7 +24,7 @@ kubectl logs todoapp -n todoapp
 kubectl describe pods -n todoapp
 ```
 
-### 4. Ese the port-forward command:
+### 4. Use the port-forward command:
 ```bash
 kubectl port-forward -n todoapp todoapp 8080:8080
 ```
